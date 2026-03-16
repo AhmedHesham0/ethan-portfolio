@@ -403,7 +403,6 @@ a {
     flex-direction: column;
     display: flex;
     gap: 20px;
-    group: project;
 }
 
 .project-image {
