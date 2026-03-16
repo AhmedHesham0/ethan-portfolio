@@ -1,9 +1,0 @@
-# Ignore large local video files
-img/*.mp4
-img/*.mov
-img/*.avi
-img/*.mkv
-
-# OS files
-.DS_Store
-Thumbs.db
