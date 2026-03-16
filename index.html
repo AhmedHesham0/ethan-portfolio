@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ethan - Professional Video Editor & Motion Designer Portfolio">
+    <title>Ethan | Video Editor Portfolio</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- GSAP & ScrollTrigger -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+    <!-- Lenis Smooth Scroll -->
+    <script src="https://unpkg.com/@studio-freight/lenis@1.0.32/dist/lenis.min.js"></script>
+</head>
+
+<body class="loading">
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo hover-target">ETHAN.</div>
+        <ul class="nav-links">
+            <li><a href="#work" class="hover-target">Work</a></li>
+            <li><a href="#about" class="hover-target">About</a></li>
+            <li><a href="#contact" class="hover-target">Contact</a></li>
+        </ul>
+        <a href="#contact" class="nav-btn hover-target">Book a Call</a>
+    </nav>
+
+    <!-- Main Content wrapper for Smooth Scrolling -->
+    <main id="smooth-wrapper">
+        <div id="smooth-content">
+
+            <!-- Hero Section -->
+            <section id="home" class="hero">
+                <div class="hero-bg">
+                    <div class="video-overlay"></div>
+                    <video autoplay muted loop playsinline class="bg-video">
+                        <source src="https://cdn.pixabay.com/video/2020/05/25/40134-424599723_large.mp4"
+                            type="video/mp4">
+                    </video>
+                </div>
+                <div class="hero-content">
+                    <h1 class="hero-title">
+                        <div class="line"><span class="word">CRAFTING</span></div>
+                        <div class="line"><span class="word">VISUAL</span></div>
+                        <div class="line"><span class="word highlight">STORIES.</span></div>
+                    </h1>
+                    <p class="hero-subtitle">Professional Video Editor & Motion Designer</p>
+                </div>
+                <div class="scroll-indicator">
+                    <span class="scroll-text">Scroll Down</span>
+                    <div class="mouse"></div>
+                </div>
+            </section>
+
+            <!-- Work Section -->
+            <section id="work" class="work-section">
+                <div class="container">
+                    <h2 class="section-title" data-speed="0.8">Selected Works</h2>
+                    <div class="projects-grid">
+
+                        <!-- Project 1 -->
+                        <div class="project-card hover-target" data-cursor-text="Play">
+                            <div class="project-image">
+                                <video loop muted playsinline autoplay class="project-bg-video">
+                                    <source
+                                        src="https://rr1---sn-4g5lznl6.googlevideo.com/videoplayback?expire=1773705272&ei=2EO4aZHrDrba4t4Pvr20kQs&ip=103.51.2.67&id=o-AATJwpe3uaznf3enApieouHX4r_2vYR8DaXXUYutB97H&itag=302&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&cps=236&bui=AVNa5-y-kRFxvN6HSr2bgxK8o3jJ5che_vfPRWP3G9cxag-rQkeTkttpWaHrYMx-_6JrzUBaY1Ob0p_u&spc=6dlaFJyM0-71iCz6RgoyjqHHUmmj9J1tUhYlX1fbYH_qOQvu&vprv=1&svpuc=1&mime=video%2Fwebm&rqh=1&gir=yes&clen=3035866768&dur=10543.599&lmt=1755494755232591&keepalive=yes&fexp=51565116,51565682,51791334&c=ANDROID_VR&txp=5537534&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AHEqNM4wRAIgI7eUAXknt4lZUi5eV0tHY2xG-xxQV7rp0kNy84Mw6JwCIEh2dGQWox0JeZg15-eDo6mymM7719O8_k1OZgxTfgGB&rm=sn-ugp5obax-q5js7l,sn-n0hhpujvh-q5je67d,sn-h55lk7z,sn-hgns77e&rrc=79,79,104,40&req_id=eba1277c4ac2a3ee&rms=nxu,au&ipbypass=yes&redirect_counter=4&cms_redirect=yes&cmsv=e&met=1773683896,&mh=x5&mip=41.37.173.157&mm=34&mn=sn-4g5lznl6&ms=ltu&mt=1773682850&mv=m&mvi=1&pl=21&lsparams=cps,ipbypass,met,mh,mip,mm,mn,ms,mv,mvi,pl,rms&lsig=APaTxxMwRQIhAKyW_-iT_LoMsajHfrvCoFyCkK61b2MpYwFOm-ozpU9-AiA8BbASIRplOp7R329-dXV6KtXet28MO1uBFmNzDjkL7g%3D%3D"
+                                        type="video/mp4">
+                                </video>
+                            </div>
+                            <div class="project-info">
+                                <h3>Cinematic Commercial</h3>
+                                <span>Editing / Color Grading</span>
+                            </div>
+                        </div>
+
+                        <!-- Project 2 -->
+                        <div class="project-card hover-target" data-cursor-text="Play">
+                            <div class="project-image">
+                                <video loop muted playsinline autoplay class="project-bg-video">
+                                    <source
+                                        src="https://rr1---sn-4g5lznl6.googlevideo.com/videoplayback?expire=1773705272&ei=2EO4aZHrDrba4t4Pvr20kQs&ip=103.51.2.67&id=o-AATJwpe3uaznf3enApieouHX4r_2vYR8DaXXUYutB97H&itag=302&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ==&bui=AVNa5-y-kRFxvN6HSr2bgxK8o3jJ5che_vfPRWP3G9cxag-rQkeTkttpWaHrYMx-_6JrzUBaY1Ob0p_u&spc=6dlaFJyM0-71iCz6RgoyjqHHUmmj9J1tUhYlX1fbYH_qOQvu&vprv=1&svpuc=1&mime=video/webm&rqh=1&gir=yes&clen=3035866768&dur=10543.599&lmt=1755494755232591&keepalive=yes&fexp=51565116,51565682,51791334&c=ANDROID_VR&txp=5537534&sparams=expire,ei,ip,id,itag,source,requiressl,xpc,bui,spc,vprv,svpuc,mime,rqh,gir,clen,dur,lmt&sig=AHEqNM4wRAIgI7eUAXknt4lZUi5eV0tHY2xG-xxQV7rp0kNy84Mw6JwCIEh2dGQWox0JeZg15-eDo6mymM7719O8_k1OZgxTfgGB&rm=sn-ugp5obax-q5js7l,sn-n0hhpujvh-q5je67d,sn-h55lk7z,sn-hgns77e,sn-4g5ery7e,sn-p5qe7s7e&rrc=79,79,104,40,40,40&req_id=eba1277c4ac2a3ee&rms=nxu,au&ipbypass=yes&cps=131&mr=y&redirect_counter=1&cms_redirect=yes&cmsv=e&met=1773685533,1773685532&mh=x5&mip=41.37.173.157&mm=34&mn=sn-4g5lznl6&ms=ltu&mt=1773684771&mv=m&mvi=1&pl=21&lsparams=cps,ipbypass,met,mh,mip,mm,mn,mr,ms,mv,mvi,pl,rms&lsig=APaTxxMwRQIhAJGQJDfWItDB6WQQ_7gbez4GaRUMBgY0tvN23Zlj8Nn5AiB29fJapAmiOO1mFo-G3XjJnYa6qM98qVV_9TUIoBamUw%3D%3D"
+                                        type="video/mp4">
+                                </video>
+                            </div>
+                            <div class="project-info">
+                                <h3>Music Video "Neon"</h3>
+                                <span>VFX / Editing</span>
+                            </div>
+                        </div>
+
+                        <!-- Project 3 -->
+                        <div class="project-card hover-target" data-cursor-text="Play">
+                            <div class="project-image">
+                                <video loop muted playsinline autoplay class="project-bg-video">
+                                    <source
+                                        src="https://rr1---sn-4g5lznl6.googlevideo.com/videoplayback?expire=1773705272&ei=2EO4aZHrDrba4t4Pvr20kQs&ip=103.51.2.67&id=o-AATJwpe3uaznf3enApieouHX4r_2vYR8DaXXUYutB97H&itag=302&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ==&bui=AVNa5-y-kRFxvN6HSr2bgxK8o3jJ5che_vfPRWP3G9cxag-rQkeTkttpWaHrYMx-_6JrzUBaY1Ob0p_u&spc=6dlaFJyM0-71iCz6RgoyjqHHUmmj9J1tUhYlX1fbYH_qOQvu&vprv=1&svpuc=1&mime=video/webm&rqh=1&gir=yes&clen=3035866768&dur=10543.599&lmt=1755494755232591&keepalive=yes&fexp=51565116,51565682,51791334&c=ANDROID_VR&txp=5537534&sparams=expire,ei,ip,id,itag,source,requiressl,xpc,bui,spc,vprv,svpuc,mime,rqh,gir,clen,dur,lmt&sig=AHEqNM4wRAIgI7eUAXknt4lZUi5eV0tHY2xG-xxQV7rp0kNy84Mw6JwCIEh2dGQWox0JeZg15-eDo6mymM7719O8_k1OZgxTfgGB&rm=sn-ugp5obax-q5js7l,sn-n0hhpujvh-q5je67d,sn-h55lk7z,sn-hgns77e,sn-4g5ery7e,sn-p5qe7s7e&rrc=79,79,104,40,40,40&req_id=eba1277c4ac2a3ee&rms=nxu,au&ipbypass=yes&cps=131&mr=y&redirect_counter=1&cms_redirect=yes&cmsv=e&met=1773685533,1773685532&mh=x5&mip=41.37.173.157&mm=34&mn=sn-4g5lznl6&ms=ltu&mt=1773684771&mv=m&mvi=1&pl=21&lsparams=cps,ipbypass,met,mh,mip,mm,mn,mr,ms,mv,mvi,pl,rms&lsig=APaTxxMwRQIhAJGQJDfWItDB6WQQ_7gbez4GaRUMBgY0tvN23Zlj8Nn5AiB29fJapAmiOO1mFo-G3XjJnYa6qM98qVV_9TUIoBamUw%3D%3D"
+                                        type="video/mp4">
+                                </video>
+                            </div>
+                            <div class="project-info">
+                                <h3>Documentary Series</h3>
+                                <span>Sound Design / Editing</span>
+                            </div>
+                        </div>
+
+                        <!-- Project 4 -->
+                        <div class="project-card hover-target" data-cursor-text="Play">
+                            <div class="project-image">
+                                <video loop muted playsinline autoplay class="project-bg-video">
+                                    <source
+                                        src="https://rr1---sn-4g5lznl6.googlevideo.com/videoplayback?expire=1773705272&ei=2EO4aZHrDrba4t4Pvr20kQs&ip=103.51.2.67&id=o-AATJwpe3uaznf3enApieouHX4r_2vYR8DaXXUYutB97H&itag=302&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ==&bui=AVNa5-y-kRFxvN6HSr2bgxK8o3jJ5che_vfPRWP3G9cxag-rQkeTkttpWaHrYMx-_6JrzUBaY1Ob0p_u&spc=6dlaFJyM0-71iCz6RgoyjqHHUmmj9J1tUhYlX1fbYH_qOQvu&vprv=1&svpuc=1&mime=video/webm&rqh=1&gir=yes&clen=3035866768&dur=10543.599&lmt=1755494755232591&keepalive=yes&fexp=51565116,51565682,51791334&c=ANDROID_VR&txp=5537534&sparams=expire,ei,ip,id,itag,source,requiressl,xpc,bui,spc,vprv,svpuc,mime,rqh,gir,clen,dur,lmt&sig=AHEqNM4wRAIgI7eUAXknt4lZUi5eV0tHY2xG-xxQV7rp0kNy84Mw6JwCIEh2dGQWox0JeZg15-eDo6mymM7719O8_k1OZgxTfgGB&rm=sn-ugp5obax-q5js7l,sn-n0hhpujvh-q5je67d,sn-h55lk7z,sn-hgns77e,sn-4g5ery7e,sn-p5qe7s7e&rrc=79,79,104,40,40,40&req_id=eba1277c4ac2a3ee&rms=nxu,au&ipbypass=yes&cps=131&mr=y&redirect_counter=1&cms_redirect=yes&cmsv=e&met=1773685533,1773685532&mh=x5&mip=41.37.173.157&mm=34&mn=sn-4g5lznl6&ms=ltu&mt=1773684771&mv=m&mvi=1&pl=21&lsparams=cps,ipbypass,met,mh,mip,mm,mn,mr,ms,mv,mvi,pl,rms&lsig=APaTxxMwRQIhAJGQJDfWItDB6WQQ_7gbez4GaRUMBgY0tvN23Zlj8Nn5AiB29fJapAmiOO1mFo-G3XjJnYa6qM98qVV_9TUIoBamUw%3D%3D"
+                                        type="video/mp4">
+                                </video>
+                            </div>
+                            <div class="project-info">
+                                <h3>Brand Anthem</h3>
+                                <span>Editing / Motion Graphics</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <!-- Reels & Shorts Section -->
+            <section id="reels" class="reels-section">
+                <div class="container">
+                    <h2 class="section-title">Reels <span class="title-accent">&amp;</span> Shorts</h2>
+                    <p class="reels-subtitle">// drag to explore</p>
+                </div>
+
+                <div class="slider-wrapper">
+                    <div class="slider-track" id="sliderTrack">
+
+                        <!-- Reel 1 -->
+                        <div class="reel-card">
+                            <div class="reel-video-wrapper">
+                                <video loop muted playsinline autoplay>
+                                    <source
+                                        src="https://rr1---sn-4g5ednrz.googlevideo.com/videoplayback?expire=1773707417&ei=OUy4aYDFJY3A0_wPwfvNoQc&ip=2800%3Abf0%3A20%3Ab28%3A49ff%3Ade2b%3A5d5e%3A97e6&id=o-AHStflNDhmx9yHCje0BQ3SSXryyY0u-nxLa56H5AysYN&itag=303&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&bui=AVNa5-yK8zCM8UB6XJwPQzkY1jkYuBW3M_Ez_ZLv5cqh3yzCR_0I17yfDuAuZ2nMx_SyEAYVMx5D2aNI&spc=6dlaFIU3dZX-2YGNN2dBOhIBq9M_T8ZvC3Po5oxvtTst9-gl&vprv=1&svpuc=1&mime=video%2Fwebm&rqh=1&gir=yes&clen=27146728&dur=55.149&lmt=1738705473377098&keepalive=yes&fexp=51565115,51565681,51791334&c=ANDROID_VR&txp=543C534&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AHEqNM4wRgIhAPzSZyMxdGdIqYoX7koxYk1w3eRf-tZJG0UJgLKIpUFjAiEApvYC-clw-DFJKb3Yw5ZWVd8tRpzUIDAQU3TB8oCQWp0%3D&rm=sn-uxajvoxu-0pvk7l,sn-cvbes7z&rrc=79,104,191&req_id=deb0d13200f2a3ee&rms=rdu,au&ipbypass=yes&redirect_counter=3&cm2rm=sn-4g5l767e&cms_redirect=yes&cmsv=e&met=1773685823,&mh=-V&mip=41.37.173.157&mm=34&mn=sn-4g5ednrz&ms=ltu&mt=1773685488&mv=m&mvi=1&pl=21&lsparams=ipbypass,met,mh,mip,mm,mn,ms,mv,mvi,pl,rms&lsig=APaTxxMwRAIgeljDQzT6rIc-X7KhdBCE03Nk4EWVilFXzcAchHKrqJUCIHJ0CohQxIo5tD8-PgjRFs8jmG59hEBvUrqDQ38VmqUj"
+                                        type="video/mp4">
+                                </video>
+                                <div class="reel-overlay">
+                                    <span class="reel-tag">Cinematic</span>
+                                </div>
+                            </div>
+                            <p class="reel-title">Cinematic Showreel</p>
+                        </div>
+
+                        <!-- Reel 2 -->
+                        <div class="reel-card">
+                            <div class="reel-video-wrapper">
+                                <video loop muted playsinline autoplay>
+                                    <source
+                                        src="https://rr1---sn-4g5ednrz.googlevideo.com/videoplayback?expire=1773707417&ei=OUy4aYDFJY3A0_wPwfvNoQc&ip=2800%3Abf0%3A20%3Ab28%3A49ff%3Ade2b%3A5d5e%3A97e6&id=o-AHStflNDhmx9yHCje0BQ3SSXryyY0u-nxLa56H5AysYN&itag=303&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&bui=AVNa5-yK8zCM8UB6XJwPQzkY1jkYuBW3M_Ez_ZLv5cqh3yzCR_0I17yfDuAuZ2nMx_SyEAYVMx5D2aNI&spc=6dlaFIU3dZX-2YGNN2dBOhIBq9M_T8ZvC3Po5oxvtTst9-gl&vprv=1&svpuc=1&mime=video%2Fwebm&rqh=1&gir=yes&clen=27146728&dur=55.149&lmt=1738705473377098&keepalive=yes&fexp=51565115,51565681,51791334&c=ANDROID_VR&txp=543C534&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AHEqNM4wRgIhAPzSZyMxdGdIqYoX7koxYk1w3eRf-tZJG0UJgLKIpUFjAiEApvYC-clw-DFJKb3Yw5ZWVd8tRpzUIDAQU3TB8oCQWp0%3D&rm=sn-uxajvoxu-0pvk7l,sn-cvbes7z&rrc=79,104,191&req_id=deb0d13200f2a3ee&rms=rdu,au&ipbypass=yes&redirect_counter=3&cm2rm=sn-4g5l767e&cms_redirect=yes&cmsv=e&met=1773685823,&mh=-V&mip=41.37.173.157&mm=34&mn=sn-4g5ednrz&ms=ltu&mt=1773685488&mv=m&mvi=1&pl=21&lsparams=ipbypass,met,mh,mip,mm,mn,ms,mv,mvi,pl,rms&lsig=APaTxxMwRAIgeljDQzT6rIc-X7KhdBCE03Nk4EWVilFXzcAchHKrqJUCIHJ0CohQxIo5tD8-PgjRFs8jmG59hEBvUrqDQ38VmqUj"
+                                        type="video/mp4">
+                                </video>
+                                <div class="reel-overlay">
+                                    <span class="reel-tag">Music Video</span>
+                                </div>
+                            </div>
+                            <p class="reel-title">Neon – Short Reel</p>
+                        </div>
+
+                        <!-- Reel 3 -->
+                        <div class="reel-card">
+                            <div class="reel-video-wrapper">
+                                <video loop muted playsinline autoplay>
+                                    <source
+                                        src="https://rr1---sn-4g5ednrz.googlevideo.com/videoplayback?expire=1773707417&ei=OUy4aYDFJY3A0_wPwfvNoQc&ip=2800%3Abf0%3A20%3Ab28%3A49ff%3Ade2b%3A5d5e%3A97e6&id=o-AHStflNDhmx9yHCje0BQ3SSXryyY0u-nxLa56H5AysYN&itag=303&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&bui=AVNa5-yK8zCM8UB6XJwPQzkY1jkYuBW3M_Ez_ZLv5cqh3yzCR_0I17yfDuAuZ2nMx_SyEAYVMx5D2aNI&spc=6dlaFIU3dZX-2YGNN2dBOhIBq9M_T8ZvC3Po5oxvtTst9-gl&vprv=1&svpuc=1&mime=video%2Fwebm&rqh=1&gir=yes&clen=27146728&dur=55.149&lmt=1738705473377098&keepalive=yes&fexp=51565115,51565681,51791334&c=ANDROID_VR&txp=543C534&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AHEqNM4wRgIhAPzSZyMxdGdIqYoX7koxYk1w3eRf-tZJG0UJgLKIpUFjAiEApvYC-clw-DFJKb3Yw5ZWVd8tRpzUIDAQU3TB8oCQWp0%3D&rm=sn-uxajvoxu-0pvk7l,sn-cvbes7z&rrc=79,104,191&req_id=deb0d13200f2a3ee&rms=rdu,au&ipbypass=yes&redirect_counter=3&cm2rm=sn-4g5l767e&cms_redirect=yes&cmsv=e&met=1773685823,&mh=-V&mip=41.37.173.157&mm=34&mn=sn-4g5ednrz&ms=ltu&mt=1773685488&mv=m&mvi=1&pl=21&lsparams=ipbypass,met,mh,mip,mm,mn,ms,mv,mvi,pl,rms&lsig=APaTxxMwRAIgeljDQzT6rIc-X7KhdBCE03Nk4EWVilFXzcAchHKrqJUCIHJ0CohQxIo5tD8-PgjRFs8jmG59hEBvUrqDQ38VmqUj"
+                                        type="video/mp4">
+                                </video>
+                                <div class="reel-overlay">
+                                    <span class="reel-tag">Documentary</span>
+                                </div>
+                            </div>
+                            <p class="reel-title">Urban Stories</p>
+                        </div>
+
+                        <!-- Reel 4 -->
+                        <div class="reel-card">
+                            <div class="reel-video-wrapper">
+                                <video loop muted playsinline autoplay>
+                                    <source
+                                        src="https://rr1---sn-4g5ednrz.googlevideo.com/videoplayback?expire=1773707417&ei=OUy4aYDFJY3A0_wPwfvNoQc&ip=2800%3Abf0%3A20%3Ab28%3A49ff%3Ade2b%3A5d5e%3A97e6&id=o-AHStflNDhmx9yHCje0BQ3SSXryyY0u-nxLa56H5AysYN&itag=303&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&bui=AVNa5-yK8zCM8UB6XJwPQzkY1jkYuBW3M_Ez_ZLv5cqh3yzCR_0I17yfDuAuZ2nMx_SyEAYVMx5D2aNI&spc=6dlaFIU3dZX-2YGNN2dBOhIBq9M_T8ZvC3Po5oxvtTst9-gl&vprv=1&svpuc=1&mime=video%2Fwebm&rqh=1&gir=yes&clen=27146728&dur=55.149&lmt=1738705473377098&keepalive=yes&fexp=51565115,51565681,51791334&c=ANDROID_VR&txp=543C534&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AHEqNM4wRgIhAPzSZyMxdGdIqYoX7koxYk1w3eRf-tZJG0UJgLKIpUFjAiEApvYC-clw-DFJKb3Yw5ZWVd8tRpzUIDAQU3TB8oCQWp0%3D&rm=sn-uxajvoxu-0pvk7l,sn-cvbes7z&rrc=79,104,191&req_id=deb0d13200f2a3ee&rms=rdu,au&ipbypass=yes&redirect_counter=3&cm2rm=sn-4g5l767e&cms_redirect=yes&cmsv=e&met=1773685823,&mh=-V&mip=41.37.173.157&mm=34&mn=sn-4g5ednrz&ms=ltu&mt=1773685488&mv=m&mvi=1&pl=21&lsparams=ipbypass,met,mh,mip,mm,mn,ms,mv,mvi,pl,rms&lsig=APaTxxMwRAIgeljDQzT6rIc-X7KhdBCE03Nk4EWVilFXzcAchHKrqJUCIHJ0CohQxIo5tD8-PgjRFs8jmG59hEBvUrqDQ38VmqUj"
+                                        type="video/mp4">
+                                </video>
+                                <div class="reel-overlay">
+                                    <span class="reel-tag">Brand</span>
+                                </div>
+                            </div>
+                            <p class="reel-title">Brand Anthem Cut</p>
+                        </div>
+
+                        <!-- Reel 5 -->
+                        <!-- <div class="reel-card">
+                            <div class="reel-video-wrapper">
+                                <video loop muted playsinline autoplay>
+                                    <source src="https://cdn.pixabay.com/video/2023/10/22/186008-876939626_large.mp4"
+                                        type="video/mp4">
+                                </video>
+                                <div class="reel-overlay">
+                                    <span class="reel-tag">VFX</span>
+                                </div>
+                            </div>
+                            <p class="reel-title">Effects Reel</p>
+                        </div> -->
+
+                    </div>
+
+                    <!-- Slider Navigation Arrows -->
+                    <button class="slider-btn slider-prev" id="sliderPrev" aria-label="Previous">&#8592;</button>
+                    <button class="slider-btn slider-next" id="sliderNext" aria-label="Next">&#8594;</button>
+                </div>
+            </section>
+
+            <!-- About Section -->
+            <section id="about" class="about-section">
+                <div class="container">
+                    <div class="about-grid">
+                        <div class="about-text">
+                            <h2 class="section-title">The Editor</h2>
+                            <p class="about-desc">
+                                Bringing rhythm, flow, and emotion to every frame. With over 6 years of experience in
+                                the industry, I specialize in crafting high-impact visuals that tell a story. From
+                                high-energy music videos to intimate documentaries, I focus on the unseen details that
+                                make a project unforgettable.
+                            </p>
+                            <div class="skills">
+                                <span class="skill-tag">Premiere Pro</span>
+                                <span class="skill-tag">After Effects</span>
+                                <span class="skill-tag">DaVinci Resolve</span>
+                                <span class="skill-tag">Color Grading</span>
+                                <span class="skill-tag">Sound Design</span>
+                            </div>
+                        </div>
+                        <div class="about-image">
+                            <div class="image-wrapper">
+                                <img src="https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?auto=format&fit=crop&q=80&w=1000"
+                                    alt="Editor working">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section id="contact" class="contact-section">
+                <div class="container">
+                    <div class="contact-content">
+                        <h2 class="big-text">Let's Talk <br> <span class="highlight">Vision.</span></h2>
+                        <a href="#contact" class="primary-btn hover-target">Book a Call</a>
+                        <div class="contact-email">
+                            <a href="mailto:ethanhunterfilm@gmail.com"
+                                class="email-link hover-target">ethanhunterfilm@gmail.com</a>
+                        </div>
+                    </div>
+                </div>
+                <footer class="footer">
+                    <div class="container footer-flex">
+                        <div class="social-links">
+                            <a href="#" class="hover-target">Twitter</a>
+                            <a href="#" class="hover-target">Instagram</a>
+                            <a href="#" class="hover-target">LinkedIn</a>
+                        </div>
+                        <p class="copyright">&copy; 2026 AB Builds. Crafted with Passion.</p>
+                    </div>
+                </footer>
+            </section>
+
+        </div>
+    </main>
+
+    <script src="js/app.js"></script>
+
+    <!-- Code Copying Prevention script requested by user previously -->
+    <script>
+        document.addEventListener('contextmenu', event => event.preventDefault());
+        document.addEventListener('keydown', event => {
+            if (event.ctrlKey && (event.key === 'u' || event.key === 's' || event.key === 'c' || event.key === 'i' || event.key === 'j')) {
+                event.preventDefault();
+            }
+        });
+    </script>
+</body>
+
+</html>
